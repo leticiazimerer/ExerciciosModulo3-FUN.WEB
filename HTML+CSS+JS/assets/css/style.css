@@ -1,0 +1,76 @@
+/*Styles of index.html page*/
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+p {
+font-size: 30px
+}
+
+p2 {
+    font-size: 20px
+    }
+
+.container
+{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: palevioletred;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.br {
+    border-radius: 50%;
+}
+
+.wh {
+    width: 350px;
+    height: 350px;
+}
+
+#adopt {
+    color: palevioletred;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+
+#adopt:hover {
+    color: white;
+    background-color: palevioletred;
+}
+
+.tm {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+
+/*Styles of contact.html page*/
+.ml {
+    margin-left: 20px;
+}

@@ -1,0 +1,16 @@
+Documentação React JS:
+https://pt-br.reactjs.org/docs/getting-started.html
+
+Antes de usar o React JS, temos que instalar:
+- node js 
+https://nodejs.org/en/
+- yarn
+https://yarnpkg.com/getting-started/install
+- create react app + olhar como no github
+https://create-react-app.dev/
+https://github.com/facebook/create-react-app
+- no terminal do code, colocar esse codigo
+npx create-react-app nomedoarquivo --template typescript
+-Material-Ui (framework para o React)
+https://mui.com/pt/
+https://mui.com/pt/material-ui/getting-started/installation/ (documentação)

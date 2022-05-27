@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <ol id="menu">
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="contact.html">Contect Me</a>
+        </li>
+    </ol>
+    <h1 class="center">Contact Me</h1>
+    <div class="container">
+        <div>
+            <h2>Send a message</h2>
+            <form>
+                <label for="name:">Name</label> <br>
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <div id="txtNome"></div>
+                    <br>
+                <label for="email:">E-mail</label> <br>
+                <input type="email" id="email" onkeyup="validaEmail()">
+                <div id="txtEmail"></div>
+                    <br>
+                <label for="assunto:">Which animal do you wanna adopt?</label> <br>
+                <textarea name="assunto" id="assunto" cols="30" rows="10" onkeyup="validaAssunto()"></textarea>
+                <div id="txtAssunto"></div>
+                    <br>
+                <button onclick="enviar()">Send</button>
+            </form>
+        </div>
+        <div class="ml">
+            <h2>Adress</h2>
+            <h3>Lest's meet us!</h3>
+                <h4>Av. das Flores, 1234</h4> 
+                <h4>São Paulo - SP</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29271.07610702433!2d-46.62899885!3d-23.500668849999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef62dae139b07%3A0x666ae659df9b322c!2sSantana%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1653357841776!5m2!1spt-BR!2sbr" width="400" height="200" style="border: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa"></iframe>
+        </div>
+    </div>
+
+    <hr>
+    <footer class="center">
+        <div class="container">
+            <a href="https://www.linkedin.com/in/leticiazimerer/">
+                <img class="tm" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+            <a href="https://github.com/leticiazimerer">
+                <img class="tm" src="assets/img/github.png" alt="Logo do Github">
+            </a>
+            <a href="https://www.instagram.com/leticiazimerer/">
+                <img class="tm" src="assets/img/instagram (1).png" alt="Logo do Instagram">
+            </a>
+            <a href="https://www.facebook.com/leticia.zimerer/">
+                <img class="tm" src="assets/img/facebook.png" alt="Logo do Facebook">
+            </a>  
+        </div>
+        <p2 >
+            All rights reserved: Leticia Zimerer &copy;
+        </p2>
+    </footer>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
