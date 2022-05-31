@@ -1,15 +1,20 @@
-.titulo{
+.titulo {
     color: rgb(0, 0, 0);
     text-align: justify;
 }
 
-.img{
+.img {
     width:1100px;
     height:700px;
     display: block;
     margin: 0 auto;
 }
 
-.text-decorator-none{
+.text-decorator-none {
     text-decoration: none;
+}
+
+.cursor {
+    cursor: pointer;
+    color: white;
 }

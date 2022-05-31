@@ -1,6 +1,6 @@
 .titulo{
-    color: rgb(52, 52, 209);
-    text-align: justify;
+    color: white !important;
+    font-weight: bold !important;
 }
 
 .img{
@@ -8,4 +8,18 @@
     height:700px;
     display: block;
     margin: 0 auto;
+}
+
+.caixa {
+    background-color: #000000;
+}
+
+.botao {
+    border-color: black !important;
+     background-color: #F5ED30 !important; 
+     color: #000000 !important;
+}
+
+.postagens {
+    background-color: white;
 }

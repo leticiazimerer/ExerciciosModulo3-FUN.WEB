@@ -10,7 +10,7 @@ function Login() {
                 <Box paddingX={20} >
                     <form>
 
-                        <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" style={{fontWeight: "bold"}}>Bora entrar?</Typography>
+                        <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" className="textos1">Bora entrar?</Typography>
                         <TextField id="usuario" label="usuario" variant="outlined" name="usuario" margin="normal" fullWidth />
                         <TextField id="senha" label="senha" variant="outlined" name="senha" margin="normal" fullWidth />
                         <Box margin={2} textAlign="center">
@@ -25,15 +25,11 @@ function Login() {
                         <Box>
                             <Typography variant='subtitle1' gutterBottom align='center'>Vish, não tem conta? </Typography>
                         </Box>
-                            <Typography variant='subtitle1' gutterBottom align='center' style={{fontWeight: 'bold'}}> Faz uma aqui</Typography>
+                            <Typography variant='subtitle1' gutterBottom align='center' className="textos1"> Faz uma aqui</Typography>
                     </Box>
                 </Box>
                 </Grid>
-                <Grid xs={6} style={{
-                    backgroundImage: `url(https://i.imgur.com/RphE3rh.jpg)`,
-                    backgroundRepeat: 'no-repeat', width: "10vh", minHeight: "100vh", backgroundSize: 'cover', backgroundPosition: 'center',
-
-                }}>
+                <Grid xs={6} className="imagem">
             </Grid>
         </Grid>
     );

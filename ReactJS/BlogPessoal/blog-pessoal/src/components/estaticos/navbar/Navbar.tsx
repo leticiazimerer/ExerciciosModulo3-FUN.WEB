@@ -8,34 +8,34 @@ function Navbar() {
         <>
             <AppBar position="static">
                 <Toolbar variant="dense" style={{backgroundColor: "#000000"}}>
-                    <Box style={{ cursor: "pointer" ,color: "black"  }} >
+                    <Box className="cursor" >
                         <Typography variant="h5" color="initial">
                         <a href="https://imgur.com/gWicD5c"><img src="https://i.imgur.com/gWicD5c.png" title="source: imgur.com" width={60} height={60}/></a>
                         </Typography>
                     </Box>
                     <Box display="flex" justifyContent="start">
-                        <Box mx={1} style={{ cursor: "pointer" }}>
+                        <Box mx={1} className="cursor">
                             <Typography variant="h6" color="inherit">
                                 Home
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer" }}>
+                        <Box mx={1} className="cursor">
                             <Typography variant="h6" color="inherit">
                                 Postagens
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer" }}>
+                        <Box mx={1} className="cursor">
                             <Typography variant="h6" color="inherit">
                                 Temas
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer" }}>
+                        <Box mx={1} className="cursor">
                             <Typography variant="h6" color="inherit">
                                 Cadastrar Tema
                             </Typography>
                         </Box>
                         <Link to="/login" className="text-decorator-none">
-                            <Box mx={1} style={{ cursor: "pointer", color:"white" }}>
+                            <Box mx={1} className="cursor">
                                 <Typography variant="h6" color="inherit">
                                     Logout
                                 </Typography>
