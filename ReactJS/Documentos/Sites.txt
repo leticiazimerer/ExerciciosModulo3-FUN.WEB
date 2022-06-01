@@ -14,3 +14,12 @@ npx create-react-app nomedoarquivo --template typescript
 -Material-Ui (framework para o React)
 https://mui.com/pt/
 https://mui.com/pt/material-ui/getting-started/installation/ (documentação)
+
+REACT ROUTER
+yarn add/react-router-dom (instalação)
+
+AXIOS:
+- https://axios-http.com/ptbr/docs/intro (documentação)
+- https://www.npmjs.com/package/axios
+- https://github.com/axios/axios (github)
+yarn add axios (instalação)

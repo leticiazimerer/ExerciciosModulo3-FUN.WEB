@@ -14,3 +14,11 @@
         background-size: cover; 
         background-position: center;
 }
+
+.text-decorator-none{
+    text-decoration: none;
+}
+
+.text-decorator-none Button {
+    width: 100%;
+}

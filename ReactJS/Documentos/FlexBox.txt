@@ -1,0 +1,11 @@
+flex-start: Items align to the left side of the container.
+flex-end: Items align to the right side of the container.
+center: Items align at the center of the container.
+space-between: Items display with equal spacing between them.
+space-around: Items display with equal spacing around them.
+
+flex-start: Os itens se alinham ao lado esquerdo do contêiner.
+flex-end: Os itens são alinhados ao lado direito do contêiner.
+center: os itens se alinham no centro do contêiner.
+space-between: Os itens são exibidos com espaçamento igual entre eles.
+space-around: Os itens são exibidos com espaçamento igual ao redor deles.

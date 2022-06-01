@@ -1,16 +1,16 @@
 import React from "react";
 import { AppBar, Toolbar, Typography, Box } from '@material-ui/core';
-import {Link} from "react-router-dom";
-import"./Navbar.css";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar() {
     return (
         <>
             <AppBar position="static">
-                <Toolbar variant="dense" style={{backgroundColor: "#000000"}}>
+                <Toolbar variant="dense" style={{ backgroundColor: "#000000" }}>
                     <Box className="cursor" >
                         <Typography variant="h5" color="initial">
-                        <a href="https://imgur.com/gWicD5c"><img src="https://i.imgur.com/gWicD5c.png" title="source: imgur.com" width={60} height={60}/></a>
+                            <a href="https://imgur.com/gWicD5c"><img src="https://i.imgur.com/gWicD5c.png" title="source: imgur.com" width={60} height={60} /></a>
                         </Typography>
                     </Box>
                     <Box display="flex" justifyContent="start">
@@ -41,7 +41,7 @@ function Navbar() {
                                 </Typography>
                             </Box>
                         </Link>
-                        
+
                     </Box>
 
                 </Toolbar>
